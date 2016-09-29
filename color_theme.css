@@ -1,0 +1,222 @@
+body
+{
+  background-color: #f8f6f4;
+}
+
+a
+{
+  text-decoration: none;
+  color: #f0ded4;
+}
+
+h2
+{
+  color: #b1e1e1;
+}
+
+.credit
+{
+  z-index: 1;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: #afe3f8;
+  text-align: center;
+  font-size: 0;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width:25px;
+  box-shadow:rgba(0,0,0,0.06)2px 2px;
+  border: 1px solid #afe3f8;
+  border-radius: 100px;
+  background: #ffffff;
+  -webkit-transition: all 0.6s ease-in-out;
+}
+
+.credit:hover
+{
+  font-size: 65%;
+  padding: 5px;
+  width: 150px;
+}
+
+.home
+{
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: #9b8c92;
+  text-align: center;
+  font-size: 0;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  width:25px;
+  box-shadow:rgba(0,0,0,0.06)2px 2px;
+  border: 1px solid #dcdcdc;
+  border-radius: 100px;
+  background: #ffffff;
+  -webkit-transition: all 0.6s ease-in-out;
+}
+
+.home:hover
+{
+      font-size: 65%;
+      padding: 2px;
+      width: 50px;
+}
+
+.fixedimg
+{
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: #9b8c92;
+  text-align: center;
+  font-size: 0;
+
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  width:50px;
+  box-shadow:rgba(0,0,0,0.06)6px 6px;
+  border: 1px solid #afe3f8;
+  border-radius: 100px;
+  background: #ffffff;
+  -webkit-transition: all 0.6s ease-in-out;
+}
+
+.fixedimg:hover
+{
+  padding: 7px;
+  font-size: 65%;
+  width: 70px;
+}
+
+.blocky
+{
+  top: 190px; /* how do i horizaontally align to center?*/
+  left: 15px;
+  box-shadow:rgba(0,0,0,0.06)6px 6px;
+  border: 1px solid #f9c6b0;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  text-align: center;
+  font-size: 75%;
+  background: #ffffff;
+  padding: 10px;
+  position: relative;
+  color: #b4cd66;
+  border-radius: 20px;
+  float: left;
+  width: 60%;
+}
+
+.selection1
+{
+  display: inline-block;
+  top: 75px; /* align to always be the same no matter content size*/
+  box-shadow:rgba(0,0,0,0.06)6px 6px;
+  border: 1px solid #dcdcdc;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  text-align: center;
+  font-size: 75%;
+  background: #ffffff;
+  padding: 12px;
+  position: relative;
+  color: #f0ded4;
+  border-radius: 20px;
+  left: 63px; /* align to always be the same no matter content size*/
+  width: 30%;
+}
+.selection1:hover
+{
+  color: #b4cd66;
+}
+
+.selection1-1
+{
+  display: inline-block;
+  top: 150px; /* align to always be the same no matter content size*/
+  box-shadow:rgba(0,0,0,0.06)6px 6px;
+  border: 1px solid #dcdcdc;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  text-align: center;
+  font-size: 75%;
+  background: #ffffff;
+  padding: 12px;
+  position: relative;
+  color: #f0ded4;
+  border-radius: 20px;
+  left: 63px; /* align to always be the same no matter content size*/
+  width: 30%;
+}
+
+.selection1-1:hover
+{
+  color: #b4cd66;
+}
+
+.selection2
+{
+    display: inline-block;
+    top: 100px; /* align to always be the same no matter content size*/
+    box-shadow:rgba(0,0,0,0.06)6px 6px;
+    border: 1px solid #dcdcdc;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-align: center;
+    font-size: 75%;
+    background: #ffffff;
+    padding: 12px;
+    position: relative;
+    color: #f0ded4;
+    border-radius: 20px;
+    left: 63px; /*align to always be the same no matter content size*/
+    width: 30%;
+}
+
+.selection2:hover
+{
+  color: #b4cd66;
+}
+
+.selection2-1
+{
+    display: inline-block;
+    top: 175px; /* align to always be the same no matter content size*/
+    box-shadow:rgba(0,0,0,0.06)6px 6px;
+    border: 1px solid #dcdcdc;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-align: center;
+    font-size: 75%;
+    background: #ffffff;
+    padding: 12px;
+    position: relative;
+    color: #f0ded4;
+    border-radius: 20px;
+    left: 63px; /*align to always be the same no matter content size*/
+    width: 30%;
+}
+
+.selection2-1:hover
+{
+  color: #b4cd66;
+}
+
+
+.selection3
+{
+    display: inline-block;
+    top: 125px; /* align to always be the same no matter content size*/
+    box-shadow:rgba(0,0,0,0.06)6px 6px;
+    border: 1px solid #dcdcdc;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-align: center;
+    font-size: 75%;
+    background: #ffffff;
+    padding: 12px;
+    position: relative;
+    color: #f0ded4;
+    border-radius: 20px;
+    left: 827px; /*align to always be the same no matter content size*/
+    width: 30%;
+}
+
+.selection3:hover
+{
+  color: #b4cd66;
+}
