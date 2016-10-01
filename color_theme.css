@@ -106,6 +106,24 @@ h2
   width: 60%;
 }
 
+.blocky2
+{
+  top: 190px;
+  left: 230px;
+  box-shadow:rgba(0,0,0,0.06)6px 6px;
+  border: 1px solid #f9c6b0;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  text-align: center;
+  font-size: 75%;
+  background: #ffffff;
+  padding: 10px;
+  position: relative;
+  color: #b4cd66;
+  border-radius: 20px;
+  float: left;
+  width: 60%;
+}
+
 .selection1
 {
   display: inline-block;
@@ -212,7 +230,7 @@ h2
     position: relative;
     color: #f0ded4;
     border-radius: 20px;
-    left: 827px; /*align to always be the same no matter content size*/
+    left: 847px; /*align to always be the same no matter content size*/
     width: 30%;
 }
 
